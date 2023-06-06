@@ -1,12 +1,12 @@
 {
-  "name": "electron-quick-start",
+  "name": "electron-demo",
   "version": "1.0.0",
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/wbthylove/electron-demo",
   "keywords": [
     "Electron",
     "quick",
@@ -14,7 +14,7 @@
     "tutorial",
     "demo"
   ],
-  "author": "GitHub",
+  "author": "thylove_dsq",
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^25.0.0"

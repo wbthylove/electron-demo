@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont.woff2?t=1686043707654') format('woff2'),
+         url('../font/iconfont.woff?t=1686043707654') format('woff'),
+         url('../font/iconfont.ttf?t=1686043707654') format('truetype');
+  }
+
+.iconfont {
+font-family: "iconfont" !important;
+font-size: 16px;
+font-style: normal;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+.wrapper .nav .optBtn {
+    float: right;
+    user-select: none;
+}
+.wrapper .nav .optBtn .iconfont {
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    padding: 0 15px;
+    user-select: none;
+
+}
+.wrapper .nav .optBtn .iconfont:hover {
+    background-color: #e64f4f;
+    cursor: pointer;
+}
+.wrapper .nav .optBtn .iconfont:active {
+    background-color: #e96c6c;
+    cursor: pointer;
+}
+
+
+.wrapper .nav .optBtn .windowchange:hover {
+    background-color: #757575;
+    cursor: pointer;
+}
+.wrapper .nav .optBtn .windowchange:active {
+    background-color: #adadad;
+    cursor: pointer;
+}
+.wrapper .nav .menus {
+    width: calc(100% - 138px);
+    height: 100%;
+    float: left;
+}
+.wrapper .nav .menus .appicon {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    margin: 6px;
+    background-image: url(../image/favico.png);
+    background-size: contain;
+    
+}
+
+/* 弹框 */
+.bulletbox {
+    width: 350px;
+    height: 200px;
+    /* background-color: #f40; */
+    border: 1px solid #333;
+    display: none;
+    position: absolute;
+    margin-left: 50%;
+    left: -175px;
+    top: 100px;
+}
