@@ -404,3 +404,16 @@ window.addEventListener('DOMContentLoaded', () => {
 })
 ```
 
+## 6. 模态窗口
+
+`index.js`
+
+```js
+let indexMin = new remote.BrowserWindow({
+    parent: remote.getCurrentWindow(),
+    width: 500,
+    height: 300,
+    modal: true,
+
+})
+```
